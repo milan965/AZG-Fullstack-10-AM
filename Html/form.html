@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div align="center">
+        <h2>Form Tag</h2>
+        <form method="post">
+            <p>
+                <label for="name">Name :- </label>
+                <input type="text" id="username" name="username" placeholder="Enter name" required>
+            </p>
+
+            <p>
+                <label for="email">Email :- </label>
+                <input type="email" id="useremail" name="useremail" placeholder="Enter email" required>
+            </p>
+
+            <p>
+                <label for="password">Password :- </label>
+                <input type="password" id="userpassword" name="userpassword" placeholder="Enter password" required>
+            </p>
+
+            <p>
+                <label for="age">Age :- </label>
+                <input type="number" id="userage" name="userage" min="1" max="100" required>
+            </p>
+
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+            </p>
+
+
+            <p>
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" placeholder="https://google.com" required>
+            </p>
+
+
+            <p>
+                <label for="DOB">Date of birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </p>
+
+
+            <p>
+                <label for="time">Appointment Time:</label>
+                <input type="time" id="time" name="time" required>
+            </p>
+
+
+
+            <p>
+                <label for="meeting">Meeting:</label>
+                <input type="datetime-local" id="meeting" name="meeting" required>
+            </p>
+
+            <p>
+                <label for="month">Joining Month:</label>
+                <input type="month" id="month" name="month" required>
+            </p>
+
+            <p>
+                <label for="week">Select Week:</label>
+                <input type="week" id="week" name="week" required>
+            </p>
+
+            <p>Gender:</p>
+            <label>
+                <input type="radio" name="gender"  value="male" required>
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label>
+            </p>
+
+
+            <p>Skills:</p>
+                <label>
+                    <input type="checkbox" name="skills" required value="html">
+                    HTML
+                </label>
+                <label>
+                    <input type="checkbox" name="skills" checked value="css">
+                    CSS
+                </label>
+                <label>
+
+                    <input type="checkbox" name="skills" value="javascript">
+                    JavaScript
+                </label>
+            </p>
+
+
+            <!-- <p>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </p> -->
+
+
+
+            <p>
+                <label for="image">File Upload :- </label>
+                <input type="file" accept="image/*" required name="image">
+            </p>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+
+
+            
+
+        </form>
+    </div>
+
+</body>
+
+</html>
