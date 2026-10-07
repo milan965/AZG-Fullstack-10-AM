@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+     width: 50%;
+    padding: 0px 12px;
+}
+.col-12{
+    width: 100%;
+    padding: 0px 12px;
+}
+.layout{
+    display: flex;
+}
+
+aside{
+    height: 100vh;
+    width: 25%;
+    background-color: #f44336;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+ul{
+    list-style-type: none;
+}
+aside .cmpname{
+    margin-top: 100px;
+}
+aside .cmpname h1{
+    color: white;
+}
+aside .menu{
+    margin-top: 100px;
+}
+aside .cmpname , .menu{
+    /* text-align: center; */
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.border{
+    width: 100px;
+    display: block;
+    border: 5px solid #f44336;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+aside .menu ul li{
+    padding: 0px 20px;
+}
+aside .menu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+aside .menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+main{
+    width: 75%;
+    padding: 20px;
+    margin-left: 25%;
+}
+main .title{
+    margin-top: 79px;
+}
+main .title h2{
+    font-size: 70px;
+}
+
+
+.showcase{
+    padding: 100px 0px;
+}
+
+.showcase .showcase-title h2{
+    color: #f44336;
+    font-size: 50px;
+}
+
+.showcase .showcase-image{
+    margin: 25px 0px;
+}
