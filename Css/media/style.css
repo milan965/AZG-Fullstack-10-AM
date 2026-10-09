@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 24%;
+
+}
+.box{
+    background-color: burlywood;
+    height: 200px;
+    /* border: 1px solid black; */
+}
